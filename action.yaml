@@ -73,7 +73,7 @@ outputs:
 runs:
   using: docker
   image: docker://hamza47/terraform-github-actions:1.0
-  entrypoint: /entrypoints/apply.sh
+  entrypoint: /entrypoints/destroy.sh
 
 branding:
   icon: globe
