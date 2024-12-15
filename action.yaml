@@ -72,8 +72,8 @@ outputs:
 
 runs:
   using: docker
-  image: docker://hamza47/my-terraform-action:latest
-  entrypoint: /entrypoint.sh
+  image: docker://hamza47/terraform-github-actions:1.0
+  entrypoint: /entrypoints/apply.sh
 
 branding:
   icon: globe
