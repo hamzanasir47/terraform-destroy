@@ -72,7 +72,7 @@ outputs:
 
 runs:
   using: docker
-  image: docker://hamza47/tf-main:2.0
+  image: docker://hamza47/tf-main:3.0
   entrypoint: /entrypoints/destroy.sh
 
 branding:
